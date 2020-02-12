@@ -3,7 +3,7 @@
 #define BUTTON_PIN 2
 #define LED_PIN 13
 
-Button button;
+ButtonPB button;
 
 void setup(){
     pinMode(LED_PIN, OUTPUT);

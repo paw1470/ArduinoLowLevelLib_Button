@@ -2,7 +2,7 @@
 #define BUTTONPB_H
 #include <inttypes.h>
 
-class Button{
+class ButtonPB{
     private:
         uint8_t buttonPin;
     public:
