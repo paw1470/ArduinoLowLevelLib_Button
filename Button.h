@@ -1,8 +1,8 @@
-#ifndef BUTTON_H
-#define BUTTON_H
+#ifndef BUTTONPB_H
+#define BUTTONPB_H
 #include <inttypes.h>
 
-class Button{
+class ButtonPB{
     private:
         uint8_t buttonPin;
     public:
