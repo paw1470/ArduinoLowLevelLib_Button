@@ -1,7 +1,7 @@
 #include "ButtonPB.h"
 #include "Arduino.h"
 
-void ButtonPB::init(uint8_t pin, bool internalPullUpResistor){
+void Button::init(uint8_t pin, bool internalPullUpResistor){
     buttonPin = pin;
     if(internalPullUpResistor){
         pinMode(buttonPin, INPUT_PULLUP);
@@ -10,7 +10,7 @@ void ButtonPB::init(uint8_t pin, bool internalPullUpResistor){
     }
 }
 
-bool ButtonPB::isButtonPressed(){ 
+bool Button::isButtonPressed(){ 
     return !digitalRead(buttonPin);
 }
 
