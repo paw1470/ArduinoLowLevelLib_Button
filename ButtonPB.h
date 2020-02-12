@@ -6,7 +6,7 @@ class Button{
     private:
         uint8_t buttonPin;
     public:
-        void init(uint8_t pin, bool internalPullUpResistor);
+        void init(uint8_t pin, bool internalPullUpResistor = true);
         bool isButtonPressed();
 };
 
